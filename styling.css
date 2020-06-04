@@ -31,7 +31,7 @@ a {
   font-family: "Bebas Neue";
   font-size: large;
   letter-spacing: 2px;
-  color: white;
+  color: #fffff4;
 }
 a.topLink:hover {
   color: pink;
@@ -74,7 +74,7 @@ h1 {
   text-align: center;
   padding: 0;
   font-family: "Bebas Neue";
-  color: white;
+  color: #fffff4;
   letter-spacing: 2px;
   font-size: 80px;
 }
@@ -83,9 +83,21 @@ h2 {
   text-align: center;
   padding: 0;
   font-family: "Bebas Neue";
-  color: white;
+  color: #fffff4;
   letter-spacing: 2px;
   font-size: 30px;
+}
+.paragraph {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 15%;
+  margin-left: 15%;
+  text-align: justify;
+  padding: 0;
+  font-family: "Poppins";
+  color: #fffff4;
+  letter-spacing: 2px;
+  font-size: 20px;
 }
 footer {
   padding: 20px;
@@ -93,7 +105,7 @@ footer {
   background-color: #171717;
 }
 i {
-  color: white;
+  color: #fffff4;
 }
 i:hover {
   color: pink;
