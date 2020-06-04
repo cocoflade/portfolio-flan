@@ -15,7 +15,7 @@ nav {
   top: 0;
 }
 ul {
-  padding: 0;
+  padding-left: 10%;
   margin: 0;
   list-style: none;
   text-align: center;
@@ -28,14 +28,25 @@ a {
   width: 100px;
   display: block;
   text-decoration: none;
-  /* text-transform: uppercase; */
+  font-family: "Bebas Neue";
+  font-size: large;
+  letter-spacing: 2px;
   color: white;
 }
+a.topLink:hover {
+  color: pink;
+  text-decoration: underline;
+}
 #section1 {
-  height: 700px;
-  background: lightblue;
-  display: inline-block;
   width: 100%;
+  padding: 15% 0;
+  text-align: center;
+  background: url(img/steve-harvey-U4wcrDteZ2Y-unsplash.jpg) no-repeat center
+    center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 #section2 {
   height: 700px;
@@ -59,4 +70,8 @@ h1 {
   margin: 100px;
   text-align: center;
   padding: 0;
+  font-family: "Bebas Neue";
+  color: white;
+  letter-spacing: 2px;
+  font-size: 60px;
 }
