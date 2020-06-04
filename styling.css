@@ -75,3 +75,14 @@ h1 {
   letter-spacing: 2px;
   font-size: 60px;
 }
+footer {
+  padding: 20px;
+  height: 80px;
+  background-color: black;
+}
+i {
+  color: white;
+}
+i:hover {
+  color: pink;
+}
