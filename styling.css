@@ -13,12 +13,12 @@ nav {
   position: fixed;
   top: 0;
 }
-ul {
+.menu {
   margin: 0;
   list-style: none;
   text-align: center;
 }
-li {
+.menuHeads {
   display: inline-block;
   /* float: none; */
 }
@@ -59,13 +59,33 @@ a.topLink:hover {
   display: inline-block;
   width: 100%;
 }
+.sec3 {
+  height: 550px;
+  background: transparent;
+  display: grid;
+  width: 100%;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 80% 20%;
+}
+img {
+  width: 200px;
+  height: 200px;
+}
+
 #section4 {
   height: 800px;
   background: #2a2c2d;
   display: inline-block;
   width: 100%;
 }
-
+.sec4 {
+  height: 550px;
+  background: transparent;
+  display: grid;
+  width: 100%;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+}
 h1 {
   margin-top: 100px;
   margin-bottom: 10px;
@@ -202,9 +222,21 @@ button.send-btn:hover {
 }
 .formArea {
   padding: 10px;
-  border: tomato solid 1px;
+  padding-left: 20px;
+  width: 90%;
+  text-align: center;
 }
 /*  */
+.contactInfo {
+  list-style: none;
+  font-family: "Poppins";
+  color: #b1b1b1;
+}
+.con {
+  list-style: none;
+  padding-bottom: 35px;
+  font-size: larger;
+}
 
 footer {
   padding: 20px;

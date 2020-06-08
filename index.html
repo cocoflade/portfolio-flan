@@ -16,11 +16,11 @@
   </head>
   <body>
     <nav>
-      <ul>
-        <li><a href="#section1" class="topLink">Home</a></li>
-        <li><a href="#section2" class="topLink">About</a></li>
-        <li><a href="#section3" class="topLink">Projects</a></li>
-        <li><a href="#section4" class="topLink">Contact</a></li>
+      <ul class="menu">
+        <li class="menuHeads"><a href="#section1" class="topLink">Home</a></li>
+        <li class="menuHeads"><a href="#section2" class="topLink">About</a></li>
+        <li class="menuHeads"><a href="#section3" class="topLink">Projects</a></li>
+        <li class="menuHeads"><a href="#section4" class="topLink">Contact</a></li>
       </ul>
     </nav>
     <div id="section1">
@@ -43,20 +43,36 @@
           task.<br />
           <br />
           With an innate fear of becoming complacent and underachieved, I chose
-          to finally pursue a passion for tech and continuous growth, there's a
-          whole new world out there sat patiently beyond our comprehension,
+          to finally pursue a passion for tech and continuous growth. There is a
+          whole new world out there, sat patiently beyond our comprehension,
           waiting to be built. </br></br><p class="emph">I'd quite like to be a part of that.</p>
         </p>
     </div>
     <!--  -->
     <div id="section3">
       <h1>Projects</h1>
+      <div class="sec3">
+        <div class="cabbed">
+          <img src="img/Asset-41.png" alt="Cabbed project logo">
+        </div>
+        <div class="ncNews">
+          <img src="img/Asset-41.png" alt="Cabbed project logo">
+          <p>A front-end UI built using Facebooks's React to compliment an Express-built server.
+             Designed to provide a 'Reddit-style' social news aggregation, web content rating, and discussion website.
+          </br>
+            Northcoders News has a series of articles divided into topics. Each article has user curated ratings and 
+            can be up or down voted using the API. Users can also add comments about an article. Comments can also be 
+            up or down voted. A user can add comments and remove any comments which they have added.</p>
+        </div>
+
+        </div>
+      </div>
     </div>
     <!--  -->
 
     <div id="section4">
       <h1>Contact</h1>
-
+<div class="sec4">
       <div class="formArea">
         <form action="https://formspree.io/xjvawaoe" method="POST">
           <div class="inputGroup">
@@ -76,17 +92,25 @@
 
         </form>
       </div>
+      <div >
+        <ul class="contactInfo">
+          <li class="con"><i class="fa fa-phone fa-2x" aria-hidden="true"></i>&ensp;07463612916</li>
+          <li class="con"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i>&ensp;lukeflannery1992@hotmail.com</li>
+          <li class="con"><i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>&emsp;Manchester, England</li>
+        </ul>
+      </div>
+    </div>
     </div>
 
     <footer class="text-center">
       <div class="container">
-        <ul class="list-inline">
-          <li>
+        <ul class="menu">
+          <li  class="menuHeads">
             <a href="https://github.com/cocoflade"
               ><i class="fa fa-github fa-3x" aria-hidden="true"></i
             ></a>
           </li>
-          <li>
+          <li  class="menuHeads">
             <a href="https://www.linkedin.com/in/lukeflannery/"
               ><i class="fa fa-linkedin fa-3x" aria-hidden="true"></i
             ></a>
