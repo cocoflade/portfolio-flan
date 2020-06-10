@@ -13,16 +13,21 @@
       href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@500&display=swap"
       rel="stylesheet"
     />
+    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
   </head>
   <body>
     <nav>
       <ul class="menu">
-        <li class="menuHeads"><a href="#section1" class="topLink">Home</a></li>
-        <li class="menuHeads"><a href="#section2" class="topLink">About</a></li>
-        <li class="menuHeads"><a href="#section3" class="topLink">Projects</a></li>
-        <li class="menuHeads"><a href="#section4" class="topLink">Contact</a></li>
+        <li class="menuHeadings"><a href="#section1" class="topLink">Home</a></li>
+        <li class="menuHeadings"><a href="#section2" class="topLink">About</a></li>
+        <li class="menuHeadings"><a href="#section3a" class="topLink">Experience</a></li>
+        <li class="menuHeadings"><a href="#section3" class="topLink">Projects</a></li>
+        <li class="menuHeadings"><a href="#section4" class="topLink">Contact</a></li>
       </ul>
     </nav>
+    <!--  -->
+    <!--  -->
+    <!--  -->
     <div id="section1">
       <h1>
         I know, I know,
@@ -33,8 +38,11 @@
       <h2>You'll like it, I promise.</h2>
     </div>
     <!--  -->
+    <!--  -->
+    <!--  -->
     <div id="section2">
       <h1>About</h1>
+      <div class="sec2">
         <p class="paragraph">
           My name is Luke Flannery, I'm a former Royal Marines Commando turned
           software developer with an innate passion for creativity and problem
@@ -47,33 +55,124 @@
           whole new world out there, sat patiently beyond our comprehension,
           waiting to be built. </br></br><p class="emph">I'd quite like to be a part of that.</p>
         </p>
+        </div>
     </div>
+    <!--  -->
+    <!--  -->
+    <!--  -->
+    <div id="section3a">
+      <h1>Experience</h1>
+      <div class="sec3a">
+        <div class="cabbed">
+          <h2>Northcoders Developers Pathway</h2>
+          <p> An intensive twelve-week full-stack software development course using JavaScript, React, HTML/CSS, and SQL. 
+            Following a practical, industry-led curriculum, Making use of industry best practices such as pair-programming, 
+            remote working, TDD and version control.                   
+          </p>
+        </div>
+        <div class="ncNews">
+          <h2>AWS Re/Start</h2>
+          <p> A four-week course practicing a number of Agile methodologies and industry best practices. 
+            Builing a fundamental level of understanding in SQL, Python, Git and AWS technologies. Culminating in
+            the successful completion of the AWS Cloud Practitioner exam.
+          </p>
+        </div>
+        <div class="ncNews">
+          <h2>Royal Marines Commando</h2>
+          <p> During an eight year career in the military I had the opportunity to work alongside a variety of multi-national
+            teams, planning and delivering training programmes, both classroom and practical based. I frequently assumed senior 
+            interim positions, delegating and managing various projects concurrently, whilst effectively planning and coordinating 
+            a series of high-risk manoeuvres. I was able to successfully maintain an efficient and motivated team in times of stress.
+            </p>
+        </div>
+        </div>
+    </div>
+    <!--  -->
+    <!--  -->
     <!--  -->
     <div id="section3">
       <h1>Projects</h1>
       <div class="sec3">
         <div class="cabbed">
           <img src="img/Asset-41.png" alt="Cabbed project logo">
+          <p>Cabbed is a proof-of-concept flutter application built for both iOS and Android, designed to level the playing field between the likes of Uber and the black cab industry.                  
+          </br>For this reason I chose to design a real-time customer hotspot locator, taking advantage of the google maps heat layer to provide the user with continuous data on the intensity of customers at geographical points, all based on data returned from other users.
+        </br>This allows the user to consistently assess footfall around the city, allowing drivers to both target and avoid popular and quiet locations, fine-tuning their shifts in order to maximise cost efficiency and thereby enhance profit margins, all the while providing greater accessibility to the general public. 
+            </p>
+
         </div>
         <div class="ncNews">
-          <img src="img/Asset-41.png" alt="Cabbed project logo">
-          <p>A front-end UI built using Facebooks's React to compliment an Express-built server.
+          <img class="nc" src="img/Screenshot 2020-06-08 at 20.24.45.png" alt="NC news project logo">
+          <p>A full-stack application built using Facebooks's React to compliment an Express-built server and PQSL database.
              Designed to provide a 'Reddit-style' social news aggregation, web content rating, and discussion website.
           </br>
             Northcoders News has a series of articles divided into topics. Each article has user curated ratings and 
             can be up or down voted using the API. Users can also add comments about an article. Comments can also be 
             up or down voted. A user can add comments and remove any comments which they have added.</p>
         </div>
+        <div class="cabbedBut">
+          <ul class="menu">
+            <li  class="menuHeadings">
+              <a href="https://github.com/Manc-1/fe-cabbed"
+                ><i class="fa fa-github fa-3x" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li  class="menuHeadings">
+              <a href="https://www.youtube.com/watch?v=fhomBaEG3Gg"
+                ><i class="fa fa-youtube fa-3x" aria-hidden="true"></i
+              ></a>
+            </li>
+
+          </ul>
+  
+        </div>
+        <div class="ncNewsBut">
+          <ul class="menu">
+            <li  class="menuHeadings">
+              <a href="https://github.com/cocoflade/flannery-nc-news"
+                ><i class="fa fa-github fa-3x" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li  class="menuHeadings">
+              <a href="https://flannery-nc-news.herokuapp.com/api/"
+                ><i class="fa fa-server fa-3x" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li  class="menuHeadings">
+                <i class="fa fa-plus fa-2x" aria-hidden="true"></i
+              >
+            </li>
+              <li  class="menuHeadings">
+              <a href="https://github.com/cocoflade/flannery-nc-news-react"
+                ><i class="fa fa-github fa-3x" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li  class="menuHeadings">
+              <a href="https://cocoflade-nc-news.netlify.app/"
+                ><i class="fa fa-desktop fa-3x" aria-hidden="true"></i
+              ></a>
+            </li>
+          </ul>
+  
+        </div>
 
         </div>
       </div>
     </div>
     <!--  -->
-
+    <!--  -->
+    <!--  -->
     <div id="section4">
       <h1>Contact</h1>
 <div class="sec4">
-      <div class="formArea">
+      <div >
+        <ul class="contactInfo">
+          <li class="con"><i class="fa fa-phone fa-2x" aria-hidden="true"></i>&ensp;07463612916</li>
+          <li class="con"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i>&ensp;lukeflannery1992@hotmail.com</li>
+          <li class="con"><i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>&emsp;Manchester, England</li>
+        </ul>
+      </div>
+           <div class="formArea">
         <form action="https://formspree.io/xjvawaoe" method="POST">
           <div class="inputGroup">
             <input type="text" required name="name" />
@@ -89,34 +188,26 @@
             <label>Your comment</label>
           </div>
             <button class="send-btn" type="submit">Send</button>
-
         </form>
       </div>
-      <div >
-        <ul class="contactInfo">
-          <li class="con"><i class="fa fa-phone fa-2x" aria-hidden="true"></i>&ensp;07463612916</li>
-          <li class="con"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i>&ensp;lukeflannery1992@hotmail.com</li>
-          <li class="con"><i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>&emsp;Manchester, England</li>
-        </ul>
-      </div>
     </div>
     </div>
-
+<!--  -->
+<!--  -->
+<!--  -->
     <footer class="text-center">
-      <div class="container">
         <ul class="menu">
-          <li  class="menuHeads">
+          <li  class="menuHeadings">
             <a href="https://github.com/cocoflade"
               ><i class="fa fa-github fa-3x" aria-hidden="true"></i
             ></a>
           </li>
-          <li  class="menuHeads">
+          <li  class="menuHeadings">
             <a href="https://www.linkedin.com/in/lukeflannery/"
               ><i class="fa fa-linkedin fa-3x" aria-hidden="true"></i
             ></a>
           </li>
         </ul>
-      </div>
     </footer>
   </body>
 </html>

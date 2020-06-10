@@ -15,15 +15,15 @@ nav {
 }
 .menu {
   margin: 0;
+  padding: 0;
   list-style: none;
   text-align: center;
 }
-.menuHeads {
+.menuHeadings {
   display: inline-block;
-  /* float: none; */
 }
 a {
-  padding: 20px;
+  padding: 20px 10px 20px 10px;
   width: 100px;
   display: inline-block;
   text-decoration: none;
@@ -48,38 +48,64 @@ a.topLink:hover {
   background-size: cover;
 }
 #section2 {
-  height: 800px;
-  background: #1d2123;
+  height: 100%;
+  background: #111111;
   display: inline-block;
   width: 100%;
 }
+.sec2 {
+  height: 600px;
+  background: transparent;
+  display: grid;
+  width: 100%;
+  grid-template-columns: auto;
+  grid-template-rows: 70% 30%;
+}
+#section3a {
+  height: 100%;
+  background: #232323;
+  display: inline-block;
+  width: 100%;
+}
+.sec3a {
+  height: 600px;
+  background: transparent;
+  display: grid;
+  width: 100%;
+  grid-template-columns: 33% 34% 33%;
+  grid-template-rows: 75% 25%;
+}
 #section3 {
-  height: 800px;
-  background: #252728;
+  height: 100%;
+  background: #343434;
   display: inline-block;
   width: 100%;
 }
 .sec3 {
-  height: 550px;
+  height: 500px;
   background: transparent;
   display: grid;
   width: 100%;
   grid-template-columns: 50% 50%;
-  grid-template-rows: 80% 20%;
+  grid-template-rows: 75% 25%;
 }
 img {
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
+}
+.nc {
+  width: 370px;
+  height: 100px;
 }
 
 #section4 {
-  height: 800px;
-  background: #2a2c2d;
+  height: 100%;
+  background: #464646;
   display: inline-block;
   width: 100%;
 }
 .sec4 {
-  height: 550px;
+  height: 500px;
   background: transparent;
   display: grid;
   width: 100%;
@@ -99,7 +125,7 @@ h1 {
   font-size: 90px;
 }
 h2 {
-  margin: 50px;
+  margin: 40px 20px;
   text-align: center;
   padding: 0;
   font-family: "Bebas Neue";
@@ -144,7 +170,7 @@ input {
   width: 300px;
   border: none;
   outline: none;
-  border-bottom: 1px solid #b1b1b1;
+  border-bottom: 1px solid #fffff4;
   color: #fffff4;
   background: transparent;
   transition: 0.2s ease;
@@ -164,24 +190,21 @@ label {
   pointer-events: none;
   left: 5px;
   top: 15px;
-  opacity: 0.5;
   transition: 0.2s ease all;
   -moz-transition: 0.2s ease all;
   -webkit-transition: 0.2s ease all;
 }
 
-/* active state */
 input:focus ~ label,
 input:valid ~ label {
   top: -10px;
   font-size: 12px;
-  color: #fffff4;
+  color: pink;
 }
 
-/* ANIMATIONS ================ */
 @-webkit-keyframes inputHighlighter {
   from {
-    background: #b1b1b1;
+    background: #fffff4;
   }
   to {
     width: 0;
@@ -190,7 +213,7 @@ input:valid ~ label {
 }
 @-moz-keyframes inputHighlighter {
   from {
-    background: #b1b1b1;
+    background: #fffff4;
   }
   to {
     width: 0;
@@ -199,7 +222,7 @@ input:valid ~ label {
 }
 @keyframes inputHighlighter {
   from {
-    background: #b1b1b1;
+    background: #fffff4;
   }
   to {
     width: 0;
@@ -211,7 +234,7 @@ button.send-btn {
   border: none;
   background: transparent;
   font-family: "Bebas Neue";
-  color: #b1b1b1;
+  color: #fffff4;
   transition: 0.2s ease;
   font-size: large;
 }
@@ -221,21 +244,51 @@ button.send-btn:hover {
   cursor: pointer;
 }
 .formArea {
-  padding: 10px;
-  padding-left: 20px;
-  width: 90%;
-  text-align: center;
+  padding-left: 30%;
+  width: 100%;
+  align-content: flex-end;
 }
 /*  */
 .contactInfo {
   list-style: none;
   font-family: "Poppins";
-  color: #b1b1b1;
+  color: #fffff4;
+  padding-left: 20%;
 }
 .con {
   list-style: none;
   padding-bottom: 35px;
   font-size: larger;
+}
+.cabbed {
+  padding-top: 5%;
+}
+.cabbed img {
+  margin: 0px 15px 0px 15px;
+  float: left;
+}
+.cabbed p {
+  margin: 15px;
+  padding: 0px 10px 0px 10px;
+  display: block;
+  text-align: justify;
+  font-family: "Poppins";
+  color: #fffff4;
+}
+.ncNews {
+  padding-top: 5%;
+}
+.ncNews img {
+  margin: 0px 15px 0px 15px;
+  float: left;
+}
+.ncNews p {
+  margin: 15px;
+  padding: 0px 10px 0px 10px;
+  display: block;
+  text-align: justify;
+  font-family: "Poppins";
+  color: #fffff4;
 }
 
 footer {
@@ -247,5 +300,8 @@ i {
   color: #fffff4;
 }
 i:hover {
+  color: pink;
+}
+.fa-plus {
   color: pink;
 }
