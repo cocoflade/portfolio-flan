@@ -1,10 +1,11 @@
 html {
   scroll-behavior: smooth;
 }
-
 body {
   margin: 0;
   padding: 0;
+  width: 100%;
+  height: 100%;
 }
 header {
   height: 60px;
@@ -52,7 +53,7 @@ a.topLink:hover {
   width: 100%;
 }
 .sec2 {
-  height: 600px;
+  height: 800px;
   background: transparent;
   display: grid;
   width: 100%;
@@ -66,7 +67,7 @@ a.topLink:hover {
   width: 100%;
 }
 .sec3a {
-  height: 600px;
+  height: 800px;
   background: transparent;
   display: grid;
   width: 100%;
@@ -80,7 +81,7 @@ a.topLink:hover {
   width: 100%;
 }
 .sec3 {
-  height: 500px;
+  height: 800px;
   background: transparent;
   display: grid;
   width: 100%;
@@ -103,7 +104,7 @@ img {
   width: 100%;
 }
 .sec4 {
-  height: 500px;
+  height: 800px;
   background: transparent;
   display: grid;
   width: 100%;
@@ -132,10 +133,7 @@ h2 {
   font-size: 30px;
 }
 .paragraph {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-right: 15%;
-  margin-left: 15%;
+  margin: 10px 10% 10px 10%;
   text-align: justify;
   padding: 0;
   font-family: "Poppins";
@@ -144,9 +142,7 @@ h2 {
   font-size: 20px;
 }
 .emph {
-  margin-bottom: 10px;
-  margin-right: 15%;
-  margin-left: 15%;
+  margin: 20px 10% 10px 10%;
   font-family: "Bebas Neue";
   color: pink;
   letter-spacing: 3px;
@@ -306,5 +302,32 @@ i:hover {
 @media only screen and (max-width: 620px) {
   header {
     height: 120px;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .paragraph {
+    font-size: 18px;
+  }
+  h1 {
+    font-size: 60px;
+    margin: auto;
+  }
+  .emph {
+    font-size: 20px;
+    margin-top: 10%;
+  }
+  .sec3a {
+    height: 1500px;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 100%;
+    grid-template-rows: 30% 30% 30% 10%;
+  }
+  .sec3 {
+    height: 1500px;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 100%;
+    grid-template-rows: 45% 45% 10%;
   }
 }
