@@ -22,7 +22,7 @@ header {
   display: inline-block;
 }
 a {
-  padding: 20px 10px 20px 10px;
+  padding: 20px 0px 20px 0px;
   width: 100px;
   display: inline-block;
   text-decoration: none;
@@ -93,7 +93,7 @@ img {
   height: 180px;
 }
 .nc {
-  width: 370px;
+  width: 250px;
   height: 100px;
 }
 
@@ -108,7 +108,7 @@ img {
   background: transparent;
   display: grid;
   width: 100%;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 55% 45%;
   grid-template-rows: 50% 50%;
 }
 h1 {
@@ -161,13 +161,14 @@ input {
   height: 25px;
   padding: 10px 10px 10px 5px;
   display: block;
-  width: 300px;
+  width: 250px;
   border: none;
   outline: none;
   border-bottom: 1px solid #fffff4;
   color: #fffff4;
   background: transparent;
   transition: 0.2s ease;
+  margin: 0;
 }
 
 input:focus {
@@ -223,6 +224,9 @@ input:valid ~ label {
     background: transparent;
   }
 }
+b {
+  color: pink;
+}
 
 button.send-btn {
   border: none;
@@ -238,16 +242,20 @@ button.send-btn:hover {
   cursor: pointer;
 }
 .formArea {
-  padding-left: 30%;
-  width: 100%;
-  align-content: flex-end;
+  margin: auto;
+  min-width: 0;
+  min-height: 0;
 }
 /*  */
+.example {
+  margin: auto;
+}
 .contactInfo {
   list-style: none;
   font-family: "Poppins";
   color: #fffff4;
-  padding-left: 20%;
+  margin: auto;
+  padding: 0;
 }
 .con {
   list-style: none;
@@ -296,8 +304,8 @@ i {
 i:hover {
   color: pink;
 }
-.fa-plus {
-  color: pink;
+.fab fa-aws {
+  text-align: center;
 }
 @media only screen and (max-width: 620px) {
   header {
@@ -329,5 +337,26 @@ i:hover {
     width: 100%;
     grid-template-columns: 100%;
     grid-template-rows: 45% 45% 10%;
+  }
+  .sec4 {
+    height: 1000px;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 100%;
+    grid-template-rows: 45% 45% 10%;
+  }
+  .con {
+    font-size: medium;
+  }
+  h1 {
+    margin-top: 60px;
+  }
+  img {
+    width: 100px;
+    height: 100px;
+  }
+  .nc {
+    width: 175px;
+    height: 70px;
   }
 }
