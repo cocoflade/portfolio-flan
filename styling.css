@@ -32,7 +32,7 @@ a {
   color: #fffff4;
 }
 a.topLink:hover {
-  color: pink;
+  color: #ffcad4;
   text-decoration: underline;
 }
 #section1 {
@@ -144,7 +144,7 @@ h2 {
 .emph {
   margin: 20px 10% 10px 10%;
   font-family: "Bebas Neue";
-  color: pink;
+  color: #ffcad4;
   letter-spacing: 3px;
   font-size: 26px;
 }
@@ -194,7 +194,7 @@ input:focus ~ label,
 input:valid ~ label {
   top: -10px;
   font-size: 12px;
-  color: pink;
+  color: #ffcad4;
 }
 
 @-webkit-keyframes inputHighlighter {
@@ -225,7 +225,7 @@ input:valid ~ label {
   }
 }
 b {
-  color: pink;
+  color: #ffcad4;
 }
 
 button.send-btn {
@@ -238,7 +238,7 @@ button.send-btn {
 }
 
 button.send-btn:hover {
-  color: pink;
+  color: #ffcad4;
   cursor: pointer;
 }
 .formArea {
@@ -302,7 +302,7 @@ i {
   color: #fffff4;
 }
 i:hover {
-  color: pink;
+  color: #ffcad4;
 }
 .fab fa-aws {
   text-align: center;
