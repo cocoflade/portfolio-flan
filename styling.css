@@ -359,4 +359,7 @@ i:hover {
     width: 175px;
     height: 70px;
   }
+  #section1 {
+    background-attachment: scroll;
+  }
 }
