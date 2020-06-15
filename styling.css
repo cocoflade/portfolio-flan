@@ -60,7 +60,7 @@ a.topLink:hover {
   grid-template-columns: auto;
   grid-template-rows: 70% 30%;
 }
-#section3a {
+#section3 {
   height: 100%;
   background: #232323;
   display: inline-block;
@@ -74,7 +74,7 @@ a.topLink:hover {
   grid-template-columns: 33% 34% 33%;
   grid-template-rows: 75% 25%;
 }
-#section3 {
+#section4 {
   height: 100%;
   background: #343434;
   display: inline-block;
@@ -97,7 +97,7 @@ img {
   height: 100px;
 }
 
-#section4 {
+#section5 {
   height: 100%;
   background: #464646;
   display: inline-block;
